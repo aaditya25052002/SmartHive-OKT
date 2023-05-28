@@ -59,7 +59,7 @@ const Header = () => {
                 />
               )}
 
-              <a href="https://smart-hive-bot-lbzf.vercel.app/">
+              {/* <a href="https://smart-hive-bot-lbzf.vercel.app/">
                 {" "}
                 <button
                   className="px-4 py-2.5 bg-pink-600 text-white
@@ -72,7 +72,7 @@ const Header = () => {
                 >
                   ChatBot
                 </button>
-              </a>
+              </a> */}
 
               {connectedAccount ? (
                 <button
