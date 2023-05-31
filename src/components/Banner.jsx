@@ -48,8 +48,7 @@ const Banner = () => {
         ) : (
           <div className="flex flex-row">
             <p>You are not a member of this DAO yet:</p>
-            <a href="https://smart-hive-mantle.web.app/">
-              {" "}
+            <a href="https://smart-hive-mantle.web.app" target="_blank">
               <button
                 type="button"
                 className={`inline-block px-6 py-2.5 mx-6 mb-2
