@@ -51,7 +51,7 @@ const ProposalDetails = () => {
     <div className="p-8">
       <h2 className="font-semibold text-3xl mb-5">{proposal?.title}</h2>
       <p>
-        This proposal is to payout <strong>{proposal?.amount} BIT</strong> and
+        This proposal is to payout <strong>{proposal?.amount} OKT</strong> and
         currently have{" "}
         <strong>{proposal?.upvotes + proposal?.downvotes} votes</strong> and
         will expire in <strong>{daysRemaining(proposal?.duration)}</strong>

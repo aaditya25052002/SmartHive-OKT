@@ -74,7 +74,7 @@ const CreateProposal = () => {
               focus:outline-none focus:ring-0"
               type="text"
               name="amount"
-              placeholder="e.g 2.5 BIT"
+              placeholder="e.g 2.5 OKT"
               onChange={(e) => setAmount(e.target.value)}
               value={amount}
               required

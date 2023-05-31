@@ -34,7 +34,7 @@ const Banner = () => {
         {opened()} Proposal{opened() == 1 ? "" : "s"} Currently Opened
       </h2>
       <p className="text-center">
-        Current DAO Balance: <strong>{balance} BIT</strong> <br />
+        Current DAO Balance: <strong>{balance} OKT</strong> <br />
         Your NFT Balance:{" "}
         <span>
           <strong>{mybalance} Tokens</strong>
@@ -79,7 +79,7 @@ const Banner = () => {
           rounded transition ease-in-out m-0 shadow-md
           focus:text-gray-500 focus:outline-none
           dark:border-gray-500 dark:bg-transparent"
-          placeholder="e.g 2.5 BIT"
+          placeholder="e.g 2.5 OKT"
           onChange={(e) => setAmount(e.target.value)}
           value={amount}
           required
