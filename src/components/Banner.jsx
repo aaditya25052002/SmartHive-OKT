@@ -48,7 +48,7 @@ const Banner = () => {
         ) : (
           <div className="flex flex-row">
             <p>You are not a member of this DAO yet:</p>
-            <a href="https://fit-me-53ebe.web.app/">
+            <a href="https://smart-hive-mantle.web.app/">
               {" "}
               <button
                 type="button"
